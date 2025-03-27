@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 100px;
+    margin-top: 200px;
+   text-align: center;
+}
+p {
+    font-size: 70px;
+   text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container a {
+    display: inline-block;
+    padding: 3px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+.container a.active {
+    border-radius: 5px;
+    font-weight: bolder;
+   background-color: hsl(186, 84%, 42%);
+}
+.container a:hover:not(.active) {
+   background-color: hsl(251, 22%, 86%);
+   border-radius: 5px;
+}
